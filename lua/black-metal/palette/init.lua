@@ -39,6 +39,7 @@ local M = {}
 M.themes = {
 	["dark-funeral"] = "dark-funeral",
 	["impaled-nazarene"] = "impaled-nazarene",
+    ["devourment"] = "devourment",
 	bathory = "bathory",
 	burzum = "burzum",
 	darkthrone = "darkthrone",
@@ -53,7 +54,6 @@ M.themes = {
 	thyrfing = "thyrfing",
 	venom = "venom",
 	windir = "windir",
-    devourment = "devourment",
 }
 
 for key, theme in pairs(M.themes) do
