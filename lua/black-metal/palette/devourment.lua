@@ -31,18 +31,18 @@ local m = {
 }
 
 ---@type black-metal.Theme.Terminal
-M.colormap = {
-	black = M.alt_bg,
-	grey = M.comment,
-	red = M.diag_red,
-	orange = M.number,
-	green = M.property,
-	yellow = M.func,
-	blue = M.constant,
-	purple = M.keyword,
-	magenta = M.type,
-	cyan = M.string,
-	white = M.fg,
+m.colormap = {
+	black = m.alt_bg,
+	grey = m.comment,
+	red = m.diag_red,
+	orange = m.number,
+	green = m.property,
+	yellow = m.func,
+	blue = m.constant,
+	purple = m.keyword,
+	magenta = m.type,
+	cyan = m.string,
+	white = m.fg,
 }
 
-return M
+return m
